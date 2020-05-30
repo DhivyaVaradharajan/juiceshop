@@ -20,6 +20,8 @@ public class JuiceShopE2ETest {
     @Test
     public void register() {
         WebDriverManager.chromedriver().setup();
+
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("browserName", "chrome");
 
@@ -30,7 +32,7 @@ public class JuiceShopE2ETest {
             e.printStackTrace();
         }
         driver.manage().window().maximize();
-        driver.get("http://localhost:3000/#/register");
+        driver.get("http://juice-shop:3000/#/register");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/app-welcome-banner/div/div[2]/button[2]")).click();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
@@ -44,7 +46,7 @@ public class JuiceShopE2ETest {
         driver.findElement(By.id("securityAnswerControl")).sendKeys(password);
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.findElement(By.id("registerButton")).click();
-
+        driver.quit();
 
     }
 
