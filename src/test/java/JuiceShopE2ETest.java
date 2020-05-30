@@ -24,7 +24,7 @@ public class JuiceShopE2ETest {
         capabilities.setCapability("browserName", "chrome");
 
         try {
-            new RemoteWebDriver(new URL("http://hub.com:4444/wd/hub"),
+            driver = new RemoteWebDriver(new URL("http://hub.com:4444/wd/hub"),
                 capabilities);
         } catch (MalformedURLException e) {
             e.printStackTrace();
