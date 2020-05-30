@@ -2,11 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c73650-4089-4261-8c04-d7ec457b88ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/juiceshop_e2e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JuiceShopE2ETest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JuiceShopE2ETest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-JuiceShopE2ETest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JuiceShopE2ETest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JuiceShopE2ETest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JuiceShopE2ETest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +131,7 @@
       <workItem from="1590830619678" duration="661000" />
       <workItem from="1590831944042" duration="2228000" />
       <workItem from="1590835251723" duration="287000" />
-      <workItem from="1590835562733" duration="1261000" />
+      <workItem from="1590835562733" duration="3017000" />
     </task>
     <servers />
   </component>

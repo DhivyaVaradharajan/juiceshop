@@ -1,11 +1,10 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -18,7 +17,7 @@ public class JuiceShopE2ETest {
     String password = "abc@gmail.com";
 
     @Test
-    public void register() {
+    public void registerTest() {
         WebDriverManager.chromedriver().setup();
 
 
