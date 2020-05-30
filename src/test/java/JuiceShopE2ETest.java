@@ -2,10 +2,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
+
 public class JuiceShopE2ETest {
 
     WebDriver driver;
@@ -13,9 +18,17 @@ public class JuiceShopE2ETest {
     String password = "abc@gmail.com";
 
     @Test
-    public void register(){
+    public void register() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("browserName", "chrome");
+
+        try {
+            new RemoteWebDriver(new URL("http://hub.com:4444/wd/hub"),
+                capabilities);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
         driver.manage().window().maximize();
         driver.get("http://localhost:3000/#/register");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -36,18 +49,16 @@ public class JuiceShopE2ETest {
     }
 
     @Test
-    public void login(){
-
-
+    public void login() {
 
 
     }
 
-    public void addItemToCart(){
+    public void addItemToCart() {
 
     }
 
-    public void removeItemFromCart(){
+    public void removeItemFromCart() {
 
     }
 
