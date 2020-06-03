@@ -1,17 +1,17 @@
 package com.qa.bootcamp.actions;
 
-import com.qa.bootcamp.Base;
+import com.qa.bootcamp.ElementFinder;
 import com.qa.bootcamp.builder.NewCustomer;
 import com.qa.bootcamp.pageElements.CreateNewUser;
 import com.qa.bootcamp.utils.BaseBuilders;
-import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
 
-public class NewUser extends Base {
+@Component
+public class NewUser extends ElementFinder {
 
     private NewCustomer newCustomer;
 
-    public NewUser(WebDriver driver) {
-        super(driver);
+    public NewUser() {
         newCustomer = new BaseBuilders().newCustomer();
     }
 

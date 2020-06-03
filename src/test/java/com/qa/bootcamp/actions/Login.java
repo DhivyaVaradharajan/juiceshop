@@ -1,14 +1,12 @@
 package com.qa.bootcamp.actions;
 
-import com.qa.bootcamp.Base;
+import com.qa.bootcamp.ElementFinder;
 import com.qa.bootcamp.builder.NewCustomer;
 import com.qa.bootcamp.pageElements.LoginElements;
-import org.openqa.selenium.WebDriver;
+import org.springframework.stereotype.Component;
 
-public class Login extends Base {
-    public Login(WebDriver driver) {
-        super(driver);
-    }
+@Component
+public class Login extends ElementFinder {
 
     public void withValidCredentials(NewCustomer user) {
         findElement(LoginElements.email).sendKeys(user.getEmail());

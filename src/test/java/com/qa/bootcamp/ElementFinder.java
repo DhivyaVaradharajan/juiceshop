@@ -3,18 +3,19 @@ package com.qa.bootcamp;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.function.Predicate;
 
 import static java.time.Duration.ofSeconds;
 import static org.awaitility.Awaitility.await;
 
-public class Base {
-    private WebDriver driver;
+@Component
+public class ElementFinder {
 
-    public Base(WebDriver driver) {
-        this.driver = driver;
-    }
+    @Autowired
+    private WebDriver driver;
 
     Predicate<WebElement> isElementLocated = WebElement::isDisplayed;
 

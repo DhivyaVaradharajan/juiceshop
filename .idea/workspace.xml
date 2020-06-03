@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="65c73650-4089-4261-8c04-d7ec457b88ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JuiceShopE2ETest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JuiceShopE2ETest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JuiceShopE2ETest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/NewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/actions/NewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bootcamp/utils/BaseTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +124,7 @@
       <workItem from="1590835251723" duration="287000" />
       <workItem from="1590835562733" duration="3518000" />
       <workItem from="1591025969849" duration="132000" />
-      <workItem from="1591087848435" duration="12814000" />
+      <workItem from="1591087848435" duration="14608000" />
     </task>
     <servers />
   </component>
@@ -151,18 +149,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java</url>
-          <line>15</line>
+          <line>19</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/qa/bootcamp/Base.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/test/java/JuiceShopE2ETest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/qa/bootcamp/Base.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/bootcamp/utils/BaseTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
